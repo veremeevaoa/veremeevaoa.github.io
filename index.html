@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Верстка сайтов</title>
+    <meta name="keywords" content="верстка сайтов, верстальщик, web-верстальщик, веб-верстальщик, html, html-верстальщик">
+    <meta name="description" content="Сайт-портфолио по верстке сайтов">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="flex-cont  flex-cont--header">
+        <img class="logo-photo" width="200" height="285" src="img/main-photo.jpg" alt="фото автора">
+        <div class="header__flex-container">
+          <p class="title-name">Веремеева Оксана.</p>
+          <h1 class="main-header-title">Верстка сайтов по вашим макетам.</h1>
+          <div class="header-contact-list">
+            <p class="tel">Тел.: 8 (903) 768-20-47&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;мессенджеры: 
+              <span class="messengers">
+                <img class="messengers__icons" src="img/viber-whats.png" width="100" alt="Иконки мессенджеров">
+<!--
+                <span class="messengers__viber  hidden">Вайбер</span>
+                <span class="messengers__whats  hidden">Ватсап</span>
+-->
+              </span>
+            </p>
+            <p class="e-mail">E-mail: <a class="e-mail-link" href="mailto:veremeevaoa@mail.ru">veremeevaoa@mail.ru</a></p>
+            <p class="social">
+              <a href="https://vk.com/id13641835" class="social-btn  social-btn--vk">Вконтакте</a>
+              <a href="https://ok.ru/profile/163972309" class="social-btn  social-btn--ok">Одноклассники</a>
+              <a href="https://my.mail.ru/mail/veremeevaoa/" class="social-btn  social-btn--mm">Мой мир</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="flex-cont  flex-cont--main">
+        <h2 class="main-title">Портфолио</h2>
+        <ul class="port-list">
+          <li class="port-list__item">
+            <a class="port-list__photo" href="http://ремонтобуви-ателье.рф">
+              <img src="img/scrin1-min.jpg" width="400" alt="скриншот страницы сайта">
+              <p class="port-list__description">Самый простой сайт-визитка. Без адаптива, не резиновый, без ретины, анимации и JS.</p>
+            </a>
+            <a href="http://ремонтобуви-ателье.рф">Дом быта (работающий сайт, дизайн и верстка)</a>
+          </li>
+          <li class="port-list__item">
+            <a class="port-list__photo" href="gllacy/index.html">
+              <img src="img/scrin2-min.jpg" width="400" alt="скриншот страницы сайта">
+              <p class="port-list__description  port-list__description--gllacy">Резиновая верстка, кроссбраузерность IE9+, модальные и всплывающие окна, немного анимации и JS (см. Сливочное в меню)</p>
+            </a>
+            <a href="gllacy/index.html">Интернет-магазин мороженого (верстка по макету)</a>
+          </li>
+          <li class="port-list__item">
+            <a class="port-list__photo" href="mishka/index.html">
+              <img src="img/scrin4-min.jpg" width="400" alt="скриншот страницы сайта">
+              <p class="port-list__description  port-list__description--mishka">Адаптивность, ретина, препроцессор, сборка, минификация, окна, интерактивная карта, форма заказа</p>
+            </a>
+            <a href="mishka/index.html">Интернет-магазин товаров ручной работы (верстка по макету)</a>
+          </li>
+          <li class="port-list__item">
+            <a class="port-list__photo" href="device/index.html">
+              <img src="img/scrin3-min.jpg" width="400" alt="скриншот страницы сайта">
+              <p class="port-list__description  port-list__description--device">Флексбоксы, слайдеры, окна, анимация, формы заказа (см. моноподы для селфи в меню)</p>
+            </a>
+            <a href="device/index.html">Интернет-магазин электроники (верстка по макету)</a>
+          </li>
+        </ul>
+        <h2 class="main-title">Навыки</h2>
+          <ul class="skills">
+            <li>HTML5,</li>
+            <li>CSS3,</li>
+            <li>немного JS,</li>
+            <li>валидность кода,</li>
+            <li>резиновая и адаптивная верстка (Mobile First),</li>
+            <li>ретиновость графики,</li>
+            <li>препроцессор LESS,</li>
+            <li>сборка на GULP,</li>
+            <li>Git (консоль),</li>
+            <li>кроссбраузерность,</li>
+            <li>соответствие макету по PixelPerfect,</li>
+            <li>PhotoShop на уровне, достаточном для обработки psd-макета.</li>
+          </ul>
+        <h2 class="main-title">Образование</h2>
+          <div class="education">
+            <div class="education__item">
+              <img class="education__img  education__img--msu" src="img/msu-min.jpg" width="233" alt="силуэт МГУ">
+              <span class="education__text">1998-2003гг - Химический факультет МГУ им. М.В.Ломоносова</span>
+            </div>
+            <div class="education__item">
+              <img class="education__img" src="img/sert-b2-min.jpg" width="150" alt="сертификат об окончании курсов">
+              <div class="sert-bg  sert-bg--b1"></div>
+              <img class="education__img" src="img/sert-b2-min.jpg" width="150" alt="сертификат об окончании курсов">
+              <div class="sert-bg  sert-bg--b2"></div>
+              <span class="education__text"><a href="https://htmlacademy.ru">2016г, 2017г - Онлайн-курсы HTMLAcademy "Интенсивный курс "Базовый HTML и CSS" *</a></span>
+            </div>
+            <div class="education__item">
+              <img class="education__img" src="img/sert-p1-min.jpg" width="150" alt="сертификат об окончании курсов">
+              <div class="sert-bg  sert-bg--p1"></div>
+              <img class="education__img" src="img/sert-p2-min.jpg" width="150" alt="сертификат об окончании курсов">
+              <div class="sert-bg  sert-bg--p2"></div>
+              <span class="education__text"><a href="https://htmlacademy.ru">2016г, 2017г - Онлайн-курсы HTMLAcademy "Интенсивный курс "Продвинутый HTML и CSS" *</a></span>
+            </div>
+          </div>
+          <p class="promo">* Код для получения скидки 800 руб. при оплате любого интенсива HTMLAcademy: 16103111a81</p>
+      </div>
+    </main>
+    <footer>
+      <div class="flex-cont  flex-cont--footer">
+        <div class="footer-contact-list">
+          <p class="tel">Тел.: 8 (903) 768-20-47</p>
+          <p class="e-mail">E-mail: <a class="e-mail-link" href="mailto:veremeevaoa@mail.ru">veremeevaoa@mail.ru</a></p>
+        </div>
+        <p class="social">
+          <a href="https://vk.com/id13641835" class="social-btn  social-btn--vk">Вконтакте</a>
+          <a href="https://ok.ru/profile/163972309" class="social-btn  social-btn--ok">Одноклассники</a>
+          <a href="https://my.mail.ru/mail/veremeevaoa/" class="social-btn  social-btn--mm">Мой мир</a>
+          </p>
+        <div class="footer__copyright">Разработано: Веремеева&nbsp;Оксана&nbsp;&copy;&nbsp;2017</div>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+  </html>
+ 
